@@ -1,0 +1,51 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:ital,wght@0,500;1,100&family=Poppins:wght@200&family=Roboto:wght@100&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+form {
+  display: inline-flex;
+  height: 40px;
+}
+
+.box-round {
+  border-radius: 10px 0 0 10px;
+  border: solid 1px rgb(204, 204, 204);
+  width: 500px;
+}
+
+.btn-blue {
+  border-radius:0 10px 10px 0;
+  border: solid 1px rgb(204, 204, 204);
+  font-family: sans-serif;
+  font-weight: 'bold';
+  color: white;
+  font-size: 15px;
+  background-color: rgb(51, 122, 183);
+  width: 100px;
+  transition: 0.2s ease;
+}
+
+.btn-blue:hover {
+  opacity: 1;
+  transform: scale(1.1)
+}
+
+.coach {
+  background-color: #FFFFE1;
+}
+
+.box-dialogue {
+  padding: 5px;
+  margin: 20px;
+  border-left: #DDDDDD solid 5px;
+}

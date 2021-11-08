@@ -1,0 +1,14 @@
+<h1>Stupid Coaching</h1>
+
+<div class="you box-dialogue">
+  <h2><%= params[:user_input] %></h2>
+  <h2>- You</h2>
+</div>
+
+<div class ="coach box-dialogue">
+  <h2><strong><%= @answer %></strong></h2>
+  <h2>- Your Coach</h2>
+</div>
+
+
+<%= link_to "Ask a new question", ask_path %>
