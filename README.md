@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a Ruby on Rails exercise by the Le Wagon bootcamp.
 
-Things you may want to cover:
+The goal is to create a 'stupid coach programme'
 
-* Ruby version
+The coach will provide you with coaching based on the user input. But is only capable of answering the following:
 
-* System dependencies
+1. If the message is I am going to work, the coach will answer `Great!`
+2. If the message has a question mark ? at the end, the coach will answer `Silly question, get dressed and go to work!.`
+3. Otherwise the coach will answer `I don't care, get dressed and go to work!`
 
-* Configuration
+The goal is to learn how to branch out from building terminal apps to apps with web user interface.
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+If you wish to run this programme, you can fork this and run this on local server.
